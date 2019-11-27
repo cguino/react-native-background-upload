@@ -15,6 +15,8 @@ NOTE: Use major version 4 with RN 47.0 and greater.  If you have RN less than 47
 
 ## 1. Install package
 
+### Original version :
+
 `npm install --save react-native-background-upload`
 
 or
@@ -22,6 +24,14 @@ or
 `yarn add react-native-background-upload`
 
 Note: if you are installing on React Native < 0.47, use `react-native-background-upload@3.0.0` instead of `react-native-background-upload`
+
+### This version:
+
+Add in your package.json:
+
+`"react-native-background-upload": "git+https://github.com/flo5324/react-native-background-upload.git"`
+
+Run `yarn`
 
 ## 2. Link Native Code
 
