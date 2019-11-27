@@ -1,8 +1,8 @@
 # NOTE
-This is a fork of the original repository https://github.com/Vydia/react-native-background-upload.
-Because I am an Android developer, I only fixed the Android part.
+_This is a fork of the original repository https://github.com/Vydia/react-native-background-upload.
+Because I am an Android developer, I only fixed the Android part._
 
-As of the November 27 2019, it targets SDK 29 and relies on AndroidX.
+_As of the November 27 2019, it targets SDK 29 and relies on AndroidX._
 
 # react-native-background-upload [![npm version](https://badge.fury.io/js/react-native-background-upload.svg)](https://badge.fury.io/js/react-native-background-upload)
 The only React Native http post file uploader with android and iOS background support.  If you are uploading large files like videos, use this so your users can background your app during a long upload.
