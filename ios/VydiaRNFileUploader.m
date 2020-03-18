@@ -242,7 +242,8 @@ RCT_EXPORT_METHOD(cancelUpload: (NSString *)cancelUploadId resolve:(RCTPromiseRe
     NSMutableData *httpBody = [NSMutableData data];
 
     // resolve path
-    NSURL *fileUri = [NSURL URLWithString: path];
+    NSString* escapePath = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSURL *fileUri = [NSURL URLWithString: escapePath];
     NSString *pathWithoutProtocol = [fileUri path];
 
     NSData *data = [[NSFileManager defaultManager] contentsAtPath:pathWithoutProtocol];
